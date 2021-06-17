@@ -1,0 +1,332 @@
+
+
+body{
+  margin:0;
+  padding:0;
+  background:url(image/Background-Orange.png);
+  background-size:cover !important;
+  background-position:center;
+  font-family:sans-serif;
+  height: 100vh;
+  }
+  /*----Header------*/
+  .img-1 {
+    width: 89px;
+    height: auto;
+    padding-left: 30px;
+  }
+  .bg-light {
+    height: 72px;
+    background-color: #f8f9fa!important;
+}
+.navbar-brand{
+  color: #FBA82D !important;
+  font-weight: 900;
+}  
+.link_style {
+  font-size: 24px;
+  color: black;
+  text-decoration: none;
+  font-weight: 900;
+}
+.link_style:hover {
+  font-size: 24px;
+  color:#FF8000;
+  text-decoration: none;
+  font-weight: 900;
+}
+ul{
+  list-style: none;
+}
+li{
+  padding-right: 40px;
+  display: inline-block;
+}
+
+/*----Form------*/
+  .login-box{
+     width:420px;
+     background:rgba(0,0,0,0.5);
+     color:#FFFFFF;
+     top:50%;
+     left:50%;
+     position:absolute;
+     transform:translate(-50%,-50%);
+     box-sizing:border-box;
+     padding:70px 30px;
+     border-radius: 20px;
+  }
+  .logo{
+  width:100px;
+  height:100px;
+  position:absolute; 
+  top:-13%;
+  margin-left:29%;
+  border-radius: 50%;
+  }
+  h1{
+  margin:0;
+  padding:0 0 20px;
+  text-align:center;
+  font-size:24px;
+  }
+  .login-box p{
+  margin:0;
+  padding:0;
+  font-weight:bold;
+  }
+  .login-box input{
+  width:100%;
+  margin-bottom:20px;
+  }
+  
+  .login-box input[type="submit"]{
+  border:none;
+  outline:none;
+  height:40px;
+  background:#FBA82D;
+  color:#FFFFFF;
+  font-size:18px;
+  border-radius:20px;
+  }
+  .login-box input[type="submit"]:hover{
+  cursor:pointer;
+  background:#FFFFFF;
+  color:#FF8000;
+  }
+.login-box input[type="text"]{
+  border:none;
+  border-bottom:1px solid #FFFFFF;
+  background:transparent;
+  outline:none;
+  height:40px;
+  color:#FFFFFF;
+  font-size:16px;
+  }
+.login-box input[type="password"]{
+  border:none;
+  border-bottom:1px solid #FFFFFF;
+  background:transparent;
+  outline:none;
+  height:40px;
+  color:#FFFFFF;
+  font-size:16px;
+  }
+.login-box input[type="email"]{
+  border:none;
+  border-bottom:1px solid #FFFFFF;
+  background:transparent;
+  outline:none;
+  height:40px;
+  color:#FFFFFF;
+  font-size:16px;
+  }
+
+.login-box input[type="phone"]{
+        border:none;
+        border-bottom:1px solid #FFFFFF;
+        background:transparent;
+        outline:none;
+        height:40px;
+        color:#FFFFFF;
+        font-size:16px; 
+}
+ 
+
+.login-box-1 {
+  width: 420px;
+  background: rgba(0,0,0,0.5);
+  color: #FFFFFF;
+  top: 59%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 28px 30px;
+  border-radius: 20px;
+}
+.login-box-1 p{
+  margin:0;
+  padding:0;
+  font-weight:bold;
+  }
+  .login-box-1 input{
+  width:100%;
+  margin-bottom:20px;
+  }
+  
+  .login-box-1 input[type="submit"]{
+  border:none;
+  outline:none;
+  height:40px;
+  background:#FBA82D;
+  color:#FFFFFF;
+  font-size:18px;
+  border-radius:20px;
+  }
+  .login-box-1 input[type="submit"]:hover{
+  cursor:pointer;
+  background:#FFFFFF;
+  color:#FF8000;
+  }
+.login-box-1 input[type="text"]{
+  border:none;
+  border-bottom:1px solid #FFFFFF;
+  background:transparent;
+  outline:none;
+  height:40px;
+  color:#FFFFFF;
+  font-size:16px;
+  }
+.login-box-1 input[type="password"]{
+  border:none;
+  border-bottom:1px solid #FFFFFF;
+  background:transparent;
+  outline:none;
+  height:40px;
+  color:#FFFFFF;
+  font-size:16px;
+  }
+.login-box-1 input[type="email"]{
+  border:none;
+  border-bottom:1px solid #FFFFFF;
+  background:transparent;
+  outline:none;
+  height:40px;
+  color:#FFFFFF;
+  font-size:16px;
+  }
+
+.login-box-1 input[type="phone"]{
+        border:none;
+        border-bottom:1px solid #FFFFFF;
+        background:transparent;
+        outline:none;
+        height:40px;
+        color:#FFFFFF;
+        font-size:16px; 
+} 
+  
+.logo-1{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: -11%;
+  margin-left: 29%;
+  border-radius: 50%;
+}  
+  
+
+.login-box-2 {
+  float: left;
+  width: 39.8%;
+  background: rgba(0,0,0,0.5);
+  color: #FFFFFF;
+  padding: 22px 17px;
+  margin: 49px;
+  height: 77vh;
+  border-radius: 20px;
+}
+  
+.login-box-2 p{
+  margin:0;
+  padding:0;
+  font-weight:bold;
+  }
+  .login-box-2 input{
+  width:100%;
+  margin-bottom:20px;
+  }
+  
+  .login-box-2 input[type="submit"]{
+  border:none;
+  outline:none;
+  height:40px;
+  background:#FBA82D;
+  color:#FFFFFF;
+  font-size:18px;
+  border-radius:20px;
+  }
+  .login-box-2 input[type="submit"]:hover{
+  cursor:pointer;
+  background:#FFFFFF;
+  color:#FF8000;
+  }
+.login-box-2 input[type="text"]{
+  border:none;
+  border-bottom:1px solid #FFFFFF;
+  background:transparent;
+  outline:none;
+  height:40px;
+  color:#FFFFFF;
+  font-size:16px;
+  }
+.login-box-2 input[type="password"]{
+  border:none;
+  border-bottom:1px solid #FFFFFF;
+  background:transparent;
+  outline:none;
+  height:40px;
+  color:#FFFFFF;
+  font-size:16px;
+  }
+.login-box-2 input[type="email"]{
+  border:none;
+  border-bottom:1px solid #FFFFFF;
+  background:transparent;
+  outline:none;
+  height:40px;
+  color:#FFFFFF;
+  font-size:16px;
+  }
+
+.login-box-2 input[type="phone"]{
+        border:none;
+        border-bottom:1px solid #FFFFFF;
+        background:transparent;
+        outline:none;
+        height:40px;
+        color:#FFFFFF;
+        font-size:16px; 
+} 
+.login-box-2 input[type="number"]{
+  border:none;
+  border-bottom:1px solid #FFFFFF;
+  background:transparent;
+  outline:none;
+  height:40px;
+  color:#FFFFFF;
+  font-size:16px; 
+} 
+.login-box-2 button{
+  border:none;
+  outline:none;
+  height:40px;
+  background:#FBA82D;
+  color:#FFFFFF;
+  font-size:18px;
+  border-radius:20px;
+  width: 100px;
+  }
+  .login-box-2 button:hover{
+  cursor:pointer;
+  background:#FFFFFF;
+  color:#FF8000;
+  }
+.myListButton{
+  color: rgb(15, 230, 97);
+  margin: 6px;
+}
+.myListButton:hover{
+  color: rgb(221, 51, 51); 
+}
+.myListButton-1{
+  color: rgb(221, 51, 51);
+  margin: 6px;
+}
+.myListButton-1:hover{
+  color: rgb(15, 230, 97);
+  
+}
+  
+  
